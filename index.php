@@ -30,7 +30,7 @@ else{
   <?php
     include 'includes/navbar.inc.php';
     include 'includes/'.$page.'.inc.php';
-    echo "<pre>", print_r($_SESSION),"</pre>";
+//    echo "<pre>", print_r($_SESSION),"</pre>";
   ?>
 </body>
 </html>
