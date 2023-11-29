@@ -2,7 +2,7 @@
     if(isset($_SESSION['user_role'])){
         if($_SESSION['user_role'] == 'owner'){
             $navitems = array(
-                array('manage_auctions', 'Manage Auctions'),
+                array('manage_auction', 'Manage Auctions'),
                 array('manage_admins', 'Manage Admins'),
             );
         } elseif ($_SESSION['user_role'] == 'admin'){
