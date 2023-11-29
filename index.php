@@ -1,15 +1,18 @@
 <?php
-    error_reporting(E_ALL);
-    ini_set('display_errors', 1);
+session_start();
 
-  if (isset($_GET['page'])) {
+if(isset($_GET['page'])){
+  if($_GET['page'] == 'logout'){
+    header('location: php/logout.php');
+    die();
+  }else{
     $page = $_GET['page'];
   }
+}
+else{
+  $page = "login";
+}
 
-  require_once 'private/connection.php';
-  session_start();
-
-//   $_SESSION['useragent'] = $_SERVER['HTTP_USER_AGENT'];
 ?>
 
 <!DOCTYPE html>
@@ -25,29 +28,9 @@
 </head>
 <body class="bg-secondary">
   <?php
-    require_once 'includes/navbar.inc.php';
-
-    // try {
-    //   if (isset($page)) {
-    //     $file = 'includes/'.$page.'.inc.php';
-    //     if (file_exists($file)) {
-    //       require_once $file;
-    //     } else {
-    //       header("Location: index.php?page=404");
-    //       exit();
-    //     }
-    //   } else {
-    //     require_once 'includes/homepage.inc.php';
-    //   }
-    // } catch (\Exception $e) {
-    //   echo '<meta http-equiv="refresh" content="0; url=index.php?page=homepage" />';
-    // }
-
-    // Debugging: display the contents of the session
-    echo "<pre>", print_r($_SESSION),"</pre>";
-
-    // require_once 'includes/error.inc.php';
-    // require_once 'includes/info.inc.php';
+    include 'includes/navbar.inc.php';
+    include 'includes/'.$page.'.inc.php';
+//    echo "<pre>", print_r($_SESSION),"</pre>";
   ?>
 </body>
 </html>

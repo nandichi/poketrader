@@ -4,7 +4,7 @@
   $password = "";
 
   try {
-    $conn = new PDO("mysql:host=$servername;dbname=poketrader", $username, $password);
+    $db = new PDO("mysql:host=$servername;dbname=poketrader", $username, $password);
   } catch(PDOException $e) {
     echo "Connection failed: " . $e->getMessage();
     die();
