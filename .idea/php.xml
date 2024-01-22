@@ -10,7 +10,35 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="5.3.0" />
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/phpgangsta/googleauthenticator" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/composer" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/PokePHP/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.2" />
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
   </component>

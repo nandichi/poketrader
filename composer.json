@@ -1,0 +1,12 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.org"
+    }
+  ],
+  "require": {
+    "phpgangsta/googleauthenticator": "dev-master",
+    "pragmarx/google2fa": "^8.0"
+  }
+}

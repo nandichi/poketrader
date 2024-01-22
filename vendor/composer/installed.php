@@ -1,0 +1,52 @@
+<?php return array(
+    'root' => array(
+        'name' => '__root__',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'e966db5f702185f26351efef55710bdd6f948fd8',
+        'type' => 'library',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => true,
+    ),
+    'versions' => array(
+        '__root__' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'e966db5f702185f26351efef55710bdd6f948fd8',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'paragonie/constant_time_encoding' => array(
+            'pretty_version' => 'v2.6.3',
+            'version' => '2.6.3.0',
+            'reference' => '58c3f47f650c94ec05a151692652a868995d2938',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../paragonie/constant_time_encoding',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'phpgangsta/googleauthenticator' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '505c2af8337b559b33557f37cda38e5f843f3768',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../phpgangsta/googleauthenticator',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'pragmarx/google2fa' => array(
+            'pretty_version' => 'v8.0.1',
+            'version' => '8.0.1.0',
+            'reference' => '80c3d801b31fe165f8fe99ea085e0a37834e1be3',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../pragmarx/google2fa',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -2,8 +2,30 @@
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/PokePHP/src" isTestSource="false" packagePrefix="PokePHP\" />
-      <sourceFolder url="file://$MODULE_DIR$/PokePHP/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/phpunit/phpunit-mock-objects" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/PokePHP/vendor/symfony/yaml" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/phpgangsta/googleauthenticator" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/paragonie/constant_time_encoding" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pragmarx/google2fa" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
